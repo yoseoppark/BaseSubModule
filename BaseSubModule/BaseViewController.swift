@@ -5,7 +5,7 @@
 //  Created by YoseopPark on 2021/07/14.
 //
 
-import Foundation
+import UIKit
 
 open class BaseViewController: UIViewController {
     func test() {
