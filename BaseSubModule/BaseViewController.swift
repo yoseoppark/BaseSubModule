@@ -8,8 +8,8 @@
 import UIKit
 
 open class BaseViewController: UIViewController {
-    func test() {
-        print("test")
+    open func testFunc() {
+        print("called testFunc")
     }
 }
 
@@ -24,7 +24,7 @@ open class GalleryViewController: UIViewController {
 }
 
 open class YoseopViewController: UIViewController {
-    func testMyName() {
+    open func testMyName() {
         print("요섭")
     }
 }
