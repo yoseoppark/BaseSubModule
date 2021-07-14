@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		8E04F167269E839C00BE2D3B /* BaseSubModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E04F165269E839C00BE2D3B /* BaseSubModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E04F17B269E899400BE2D3B /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E04F17A269E899400BE2D3B /* BaseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8E04F162269E839C00BE2D3B /* BaseSubModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BaseSubModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E04F165269E839C00BE2D3B /* BaseSubModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseSubModule.h; sourceTree = "<group>"; };
 		8E04F166269E839C00BE2D3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E04F17A269E899400BE2D3B /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 			isa = PBXGroup;
 			children = (
 				8E04F165269E839C00BE2D3B /* BaseSubModule.h */,
+				8E04F17A269E899400BE2D3B /* BaseViewController.swift */,
 				8E04F166269E839C00BE2D3B /* Info.plist */,
 			);
 			path = BaseSubModule;
@@ -94,6 +97,7 @@
 				TargetAttributes = {
 					8E04F161269E839C00BE2D3B = {
 						CreatedOnToolsVersion = 12.3;
+						LastSwiftMigration = 1230;
 					};
 				};
 			};
@@ -130,6 +134,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E04F17B269E899400BE2D3B /* BaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +266,7 @@
 		8E04F16B269E839C00BE2D3B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = PSQ65B2HS8;
@@ -277,6 +283,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.hyundai.BaseSubModule;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -285,6 +292,7 @@
 		8E04F16C269E839C00BE2D3B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = PSQ65B2HS8;
