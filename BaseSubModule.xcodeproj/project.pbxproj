@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		8E04F167269E839C00BE2D3B /* BaseSubModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E04F165269E839C00BE2D3B /* BaseSubModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E04F17B269E899400BE2D3B /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E04F17A269E899400BE2D3B /* BaseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8E04F162269E839C00BE2D3B /* BaseSubModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BaseSubModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E04F165269E839C00BE2D3B /* BaseSubModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseSubModule.h; sourceTree = "<group>"; };
 		8E04F166269E839C00BE2D3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E04F17A269E899400BE2D3B /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 			isa = PBXGroup;
 			children = (
 				8E04F165269E839C00BE2D3B /* BaseSubModule.h */,
+				8E04F17A269E899400BE2D3B /* BaseViewController.swift */,
 				8E04F166269E839C00BE2D3B /* Info.plist */,
 			);
 			path = BaseSubModule;
@@ -131,6 +134,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E04F17B269E899400BE2D3B /* BaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
